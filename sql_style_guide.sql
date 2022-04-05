@@ -24,7 +24,7 @@ SELECT
         WHEN cte_table1.column1 == 2 THEN 4
         ELSE 5
     END AS alias4,
-    rank() OVER (PARTITION BY column1 ORDER BY column2 DESC)-- window functions in one row
+    rank() OVER (PARTITION BY column1 ORDER BY column2 DESC) as rank1 -- window functions in one row
 FROM
     cte_table1                                              -- tables tabbed in 
 JOIN
