@@ -34,13 +34,18 @@ JOIN (                                                      -- bracket in same r
         *
     FROM
         cte_table2
-    ) AS table3                                             -- closeing bracket and alias tabbed in
+    ) AS table3                                             -- closing bracket and alias tabbed in
 ON
-    cte_table1.column1 == table3.column1 AND                -- each term in new row, focus 
-    cte_table1.column2 == table3.column2                    -- focus on readability with complex conditionals
+    cte_table1.column1 == table3.column1 AND                -- each term in new row 
+    cte_table1.column2 == table3.column2                    
 WHERE
-    cte_table1.column1 == 1 AND
-    cte_table1.column2 == 2
+    cte_table1.column1 == 1 AND                             -- each term in new row 
+    cte_table1.column2 == 2 AND                             -- focus on readability with complex conditionals
+    cte_table1.column3 IN [1, 2, 3] AND
+    cte_table1.column4 IN [
+        'value1', 'value2',
+        'value3', 'value4
+    ]
 GROUP BY
     cte_table1.column1,
     cte_table2.column1
