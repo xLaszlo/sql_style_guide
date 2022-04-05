@@ -7,13 +7,13 @@ WITH cte_table1 AS (                                        -- bracket in same r
         *
     FROM
         table1
-),                                                          -- need comma if more than one CTE
+    ),                                                      -- need comma if more than one CTE
 cte_table2 AS (
     SELECT
         *
     FROM
         table2
-)                                                           -- no comma!
+    )                                                       -- no comma!
 SELECT
     cte_table1.column1 AS alias1,                           -- each column in new row 
     cte_table2.column2 AS alias2,
