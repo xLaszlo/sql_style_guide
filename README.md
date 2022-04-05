@@ -9,3 +9,7 @@ If you want linting try: [https://www.sqlfluff.com/](https://www.sqlfluff.com/)
 Free to use, MIT License
 
 Leave any suggestions in the Issues
+
+Check out my blog: [https://laszlo.substack.com/about](https://laszlo.substack.com/about)
+
+Happy querying!!!
