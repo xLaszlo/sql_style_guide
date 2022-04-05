@@ -10,6 +10,6 @@ Free to use, MIT License
 
 Leave any suggestions in the Issues
 
-Check out my blog: [https://laszlo.substack.com/about](https://laszlo.substack.com/about)
+Check out my blog if you are interested in Data Science and productionised Machine Learning: [https://laszlo.substack.com/about](https://laszlo.substack.com/about)
 
 Happy querying!!!
