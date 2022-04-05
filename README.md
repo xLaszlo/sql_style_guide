@@ -13,3 +13,5 @@ Leave any suggestions in the Issues
 Check out my blog if you are interested in Data Science and productionised Machine Learning: [https://laszlo.substack.com/about](https://laszlo.substack.com/about)
 
 Happy querying!!!
+
+Laszlo
