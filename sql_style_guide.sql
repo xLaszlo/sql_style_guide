@@ -46,7 +46,7 @@ WHERE
     cte_table1.column3 IN (1, 2, 3) AND
     cte_table1.column4 IN (
         'value1', 'value2',
-        'value3', 'value4
+        'value3', 'value4'
     )
 GROUP BY
     cte_table1.column1,
